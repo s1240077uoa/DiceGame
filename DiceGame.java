@@ -29,5 +29,10 @@ class DiceGame{
 	    System.out.println("Die "+ i +": "+ num);
 	}
 	System.out.println("Total value: "+ sum);
+
+
+	if(sum >= 7 && sum <= 6 * Number.N) System.out.println( str + " won!");
+	else if(sum < 7 && sum > 0) System.out.println( str + " lost!");
+	
     }
 }
